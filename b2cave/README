@@ -1,0 +1,9 @@
+Listes des fichiers a modifier :
+
+/b2cave
+    * /php
+        * /bdd.php
+        * /connect.php
+    * /admin
+        * /.htaccess
+        * /.htpasswd

@@ -1,0 +1,495 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial;
+    background-color: rgb(2, 67, 113);
+}
+body{
+    background-color: white;
+    
+}
+/* MAIN PAGE */
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
+#tableHeader{
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+#tableHeader td:first-child{
+    background-color: rgb(0, 112, 192);
+    padding: 10px;
+    width: 100px;
+    font-style: normal;
+    text-align: center;
+}
+#tableHeader:last-child{
+    background-color: #d3d3d3;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: right;
+    font-style: italic;
+    padding-right: 10px;
+}
+#tableHeader:last-child p{
+    padding: 0;
+    margin: 0 100px;
+}
+.countain{
+    margin: auto;
+    padding: 0 10px;
+    max-width: 1200px;
+}
+nav{
+    background-color: white;
+}
+nav .puce{
+    display: inline-block;
+    padding: 30px 30px;
+    margin: 0 3px;
+    font-size: 25px;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.71);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+nav .puce:hover{
+    color: rgba(0, 0, 0, 1);
+    background-color: #d3d3d3;
+}
+#main{
+    background-color: #d3d3d3;
+    padding: 100px 0;
+}
+#main .alert{
+    max-width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    margin: auto;
+}
+#main .title{
+    background-color: rgb(0, 112, 192);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0;
+}
+#main .text{
+    margin: 0;
+    padding: 0;
+    word-break: normal;
+    color: #5d5d5d;
+    background-color: white;
+}
+#main p{
+    padding: 50px 50px;
+    margin: 0;
+    font-weight: 100;
+    font-size: 35px;
+}
+#main .foot{
+    background-color: #ededed;
+    color: #6c6c6c;
+    text-align: right;
+    padding: 10px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: normal;
+}
+h3{
+    color: rgb(0, 112, 192);
+    padding: 0;
+    margin: 0;
+    font-size: 80px;
+    font-weight: 100;
+}
+#all{
+    margin: 10px 0;
+    background-color: #efefef;
+}
+#all table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+#all table td{
+    width: 33%;
+    padding: 0 5px;
+}
+.in{
+    background-color: #efefef;
+    color: #404040;
+    text-align: center;
+    padding: 60px 30px;
+    cursor: pointer;
+}
+.middle .in{
+    background-color: #ff003b;
+    color: white;
+}
+footer{
+    padding: 50px 0;
+    border-top: 15px solid rgb(0, 112, 192);
+    background-color: rgb(2, 67, 113);
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+/* DEVOIRS */
+#all_devoirs{
+    padding: 50px 0;
+    background-color: #d3d3d3;
+}
+#list_devoirs{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    margin: 20px 0 0 0;
+}
+.devoirs{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 20px 10px;
+    transition: all 0.3s;
+}
+.devoirs:first-child{
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    
+}
+.devoirs:last-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    
+}
+.devoirs:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+.title_devoirs{
+    color: rgb(0, 112, 192);
+    display: inline-block;
+    
+    vertical-align: middle;
+}
+.text_devoirs{
+    display: inline-block;
+    vertical-align: top;
+    
+    vertical-align: middle;
+}
+.date_devoirs{
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: italic;
+    margin-right: 30px;
+}
+.fait_devoirs{
+    color: #e20954;
+    background-color: rgba(226, 9, 84, 0);
+    border-radius: 999px;
+    border: 1px solid #e20954;
+    padding: 5px 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.fait_devoirs:hover{
+    color: white;
+    background-color: #e20954;
+}
+.opa{
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+.opa:hover{
+    opacity: 1;
+}
+.button_add_devoirs{
+    color: #e20954;
+    padding: 15px 10px;
+    margin: 20px 0 0 0;
+    background-color: none;
+    border: 1px solid #e20954;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button_add_devoirs:hover{
+    color: white;
+    background-color: #e20954;
+}
+#surface{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+    cursor: pointer;
+}
+#in_surface h2{
+    color: rgba(0, 112, 192, 1)
+}
+#in_surface{
+    background-color: white;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    margin: 0 auto 0 auto;
+    padding: 50px 20px;
+    width: 700px;
+    text-align: center;
+    z-index: 2;
+    display: none;
+}
+#in_surface label{
+    display: block;
+    margin: 10px 0;
+}
+#in_surface label:first-child{
+    margin-top: 30px;
+}
+#in_surface input{
+    padding: 5px 10px;
+    border: 0;
+    font-size: 18px;
+    border: 1px solid rgba(0, 112, 192, 0.3);
+    border-radius: 3px;
+    
+    display: inline-block;
+}
+#in_surface .surface_text{
+    padding: 5px 10px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgba(0, 112, 192, 0.3);
+    border-radius: 3px;
+}
+.envoyer_new_devoir{
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 1px solid #e20954;
+    display: inline-block;
+    color: white;
+    background-color: #e20954;
+    border-radius: 999px;
+    transition: all 0.3s;
+}
+.envoyer_new_devoir:hover{
+    color: #e20954;
+    background-color: rgba(226, 9, 84, 0);
+}
+.surface_check{
+}
+
+
+/* QCM */
+#all_qcm{
+    padding: 50px 0;
+    background-color: #d3d3d3;
+}
+#list_qcm{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    margin: 20px 0 0 0;
+}
+.qcm{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 20px 10px;
+    transition: all 0.3s;
+}
+.qcm:first-child{
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    
+}
+.qcm:last-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    
+}
+.qcm:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+.title_qcm{
+    color: rgb(0, 112, 192);
+    display: inline-block;
+    vertical-align: top;
+}
+.text_qcm{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* INFOS */
+#all_info{
+    padding: 50px 0;
+    background-color: #d3d3d3;
+}
+#list_info{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    margin: 20px 0 0 0;
+}
+.info{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 20px 10px;
+    transition: all 0.3s;
+}
+.info:first-child{
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    
+}
+.info:last-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    
+}
+.info:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+.title_info{
+    color: #e20954;
+    display: inline-block;
+    vertical-align: top;
+}
+.text_info{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* NOTEPAD */
+#all_notepad{
+    padding: 50px 0;
+    background-color: #d3d3d3;
+}
+#list_notepad{
+    margin: 10px 0;
+    background-color: white;
+    padding: 50px;
+}
+.col_notepad{
+    background-color: rgba(0, 0, 0, 0.03);
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+.col_notepad:first-child{
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.col_notepad:last-child{
+}
+.suppr_notepad{
+    background-color: rgba(226, 9, 84, 0);
+    color: #e20954;
+    border: 1px solid #e20954;
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    border-radius: 999px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.suppr_notepad:hover{
+    background-color: #e20954;
+    color: white;
+}
+.title_notepad{
+    color: rgb(0, 112, 192);
+    margin: 0 10px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.text_notepad{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ajout_notepad{
+    background-color: rgba(226, 9, 84, 0);
+    color: #e20954;
+    border: 1px solid #e20954;
+    padding: 5px 10px;
+    margin: 10px 10px 0 10px;
+    display: inline-block;
+    border-radius: 999px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.ajout_notepad:hover{
+    
+    background-color: #e20954;
+    color: white;
+}
+.ajout_notepad_enr{
+    background-color: rgba(226, 9, 84, 0);
+    color: #e20954;
+    border: 1px solid #e20954;
+    padding: 5px 10px;
+    margin: 10px 10px 0 10px;
+    display: inline-block;
+    border-radius: 999px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.ajout_notepad_enr:hover{
+    
+    background-color: #e20954;
+    color: white;
+}
+.textarea_notepad{
+    width: 100%;
+    margin: 20px 0 0 0;
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+    height: 300px;
+}
+.hide_notepad{
+    display: none;
+}
+
+
+/* PAGES */
+
+#all_pages{
+    padding: 50px 0;
+    background-color: #d3d3d3;
+}
+#list_pages{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    margin: 20px 0 0 0;
+}

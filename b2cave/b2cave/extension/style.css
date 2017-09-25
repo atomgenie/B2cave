@@ -1,0 +1,15 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #001a1d;
+    color: white;
+    font-family: 'Roboto';
+}
+header table{
+    width: 100%;
+    border-collapse: collapse;
+}
+header table td{
+    width: 33.3%;
+    text-align: center;
+}
