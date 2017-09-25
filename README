@@ -1,4 +1,4 @@
-Listes des fichiers a modifier :
+Liste des fichiers a modifier :
 
 /b2cave
     * /php
@@ -7,3 +7,5 @@ Listes des fichiers a modifier :
     * /admin
         * /.htaccess
         * /.htpasswd
+        
+b2cave.sql est la structure de la base de donnée, vous n'avez plus qu'a l'importer
