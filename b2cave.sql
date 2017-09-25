@@ -1,8 +1,6 @@
 -- phpMyAdmin SQL Dump
 -- version 4.7.3
 -- https://www.phpmyadmin.net/
---
--- Hôte : tamtangucxb2cave.mysql.db
 -- Généré le :  mar. 26 sep. 2017 à 00:30
 -- Version du serveur :  5.6.34-log
 -- Version de PHP :  5.6.31
@@ -19,7 +17,6 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `tamtangucxb2cave`
 --
 
 -- --------------------------------------------------------
